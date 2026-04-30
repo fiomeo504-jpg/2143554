@@ -1,6 +1,5 @@
 # Python
 __pycache__/
-*.py[cod]
 *.pyc
 *.pyo
 *.pyd
@@ -10,16 +9,19 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+venv/
+env/
+ENV/
 
-# Файл с историей задач (он будет создаваться отдельно)
-tasks.json
-
-# Редакторы кода
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Операционные системы
+# Data files (опционально)
+# expenses.json
+
+# OS
 .DS_Store
 Thumbs.db
